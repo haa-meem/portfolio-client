@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
 
     const navLists = <>
-        <li><a>Item 1</a></li>
-        <li>
-            <a>Item 2</a>
-        </li>
-        <li><a>Item 3</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/">Projects</Link></li>
+        <li><Link to="/">Contact Me</Link></li>
+        <li><Link to="/">About Me</Link></li>
     </>
 
     return (
