@@ -4,7 +4,7 @@ const Navbar = () => {
 
     const navLists = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/">Projects</Link></li>
+        <li><a href="/#projects">Projects</a></li>
         <li><Link to="/">Contact Me</Link></li>
         <li><Link to="/">About Me</Link></li>
     </>
