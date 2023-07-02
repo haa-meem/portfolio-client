@@ -21,7 +21,7 @@ const Projects = () => {
     };
 
     return (
-        <>
+        <div id="projects">
             <h1 className="text-center font-bold text-5xl my-3">My Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 m-3">
                 {projects.map((project) => (
@@ -69,7 +69,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-        </>
+        </div>
     );
 };
 

@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
 
     const navLists = <>
-        <li><Link to="/">Home</Link></li>
-        <li><a href="/#projects">Projects</a></li>
-        <li><Link to="/">Contact Me</Link></li>
-        <li><Link to="/">About Me</Link></li>
+        <li><Link to="banner" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
+        <li><Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></li>
+        <li><Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact Me</Link></li>
+        <li><Link to="about" spy={true} smooth={true} offset={-70} duration={500}>About Me</Link></li>
     </>
 
     return (
         <>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-black fixed z-10 bg-opacity-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

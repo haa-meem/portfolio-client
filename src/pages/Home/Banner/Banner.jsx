@@ -2,7 +2,7 @@ import DownloadResume from "./DownloadResume";
 
 const Banner = () => {
     return (
-        <div>
+        <div id='banner'>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="/src/assets/Haa-meem.jpg" className="max-w-sm rounded-lg shadow-2xl" />
