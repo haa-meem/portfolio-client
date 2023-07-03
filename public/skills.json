@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "HTML5.png"
+    },
+    {
+        "id": 2,
+        "image": "CSS3.png"
+    },
+    {
+        "id": 3,
+        "image": "Javascript.png"
+    },
+    {
+        "id": 4,
+        "image": "Bootstrap.png"
+    },
+    {
+        "id": 5,
+        "image": "Tailwind_CSS.png"
+    },
+    {
+        "id": 6,
+        "image": "ReactJS.png"
+    },
+    {
+        "id": 7,
+        "image": "ViteJS.png"
+    },
+    {
+        "id": 8,
+        "image": "NodeJS.png"
+    },
+    {
+        "id": 9,
+        "image": "ExpressJS.png"
+    },
+    {
+        "id": 10,
+        "image": "Firebase.png"
+    },
+    {
+        "id": 11,
+        "image": "Netlify.png"
+    },
+    {
+        "id": 12,
+        "image": "MongoDB.png"
+    }
+]
