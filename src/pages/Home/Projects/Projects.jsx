@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaExternalLinkAlt, FaGithub, FaInfo } from 'react-icons/fa';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -38,7 +39,7 @@ const Projects = () => {
                             </div>
                         </figure>
                         <div className="card-body items-center text-center">
-                            <button className="btn" onClick={() => openModal(project.id)}>Details</button>
+                            <button className="btn" onClick={() => openModal(project.id)}><FaInfo></FaInfo>Details</button>
                             <dialog id={project.id} className="modal modal-bottom sm:modal-middle">
                                 <form method="dialog" className="modal-box">
                                     <h3 className="font-bold text-lg">Features
@@ -61,9 +62,9 @@ const Projects = () => {
                                 </form>
                             </dialog>
                             <div className="card-actions">
-                                <Link target="_blank" to={project.client}><button className="btn btn-outline btn-info btn-xs sm:btn-sm lg:btn">Server Side</button></Link>
-                                <Link target="_blank" to={project.server}><button className="btn btn-outline btn-success btn-xs sm:btn-sm lg:btn">Client Side</button></Link>
-                                <Link target="_blank" to={project.live}><button className="btn btn-outline btn-warning btn-xs sm:btn-sm lg:btn">Live Link</button></Link>
+                                <Link target="_blank" to={project.client}><button className="btn btn-outline btn-info btn-xs sm:btn-sm"><FaGithub></FaGithub>Server Side</button></Link>
+                                <Link target="_blank" to={project.server}><button className="btn btn-outline btn-success btn-xs sm:btn-sm"><FaGithub></FaGithub>Client Side</button></Link>
+                                <Link target="_blank" to={project.live}><button className="btn btn-outline btn-warning btn-xs sm:btn-sm"><FaExternalLinkAlt></FaExternalLinkAlt>Live Link</button></Link>
                             </div>
                         </div>
                     </div>
