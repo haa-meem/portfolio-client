@@ -22,7 +22,7 @@ const Navbar = () => {
                             {navLists}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Haa-meem Al Hamra</a>
+                    <a className="btn btn-ghost normal-case text-xl">Haa-meem</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
