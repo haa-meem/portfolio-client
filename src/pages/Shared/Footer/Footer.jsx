@@ -3,7 +3,7 @@ const Footer = () => {
         <footer className="mt-3">
             <div className="footer p-10 bg-gray-600 text-neutral-content">
                 <div>
-                    <img src="/src/assets/h.png" className="w-14" alt="" />
+                    <img src="h.png" className="w-14" alt="" />
                     <p>
                         <strong>Haa-meem Al Hamra</strong>
                         <br />
