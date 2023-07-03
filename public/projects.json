@@ -1,24 +1,58 @@
 [
-    {
-      "id": 1,
-      "image": "chef_hut.png",
-      "client":"https://github.com/haa-meem/chef-hut-client",
-      "server":"https://github.com/haa-meem/chef-hut-server",
-      "live":"https://chef-recipe-hunter-78e93.web.app/"
-    },
-    {
-      "id": 2,
-      "image": "superhero_toy_store.png",
-      "client":"https://github.com/haa-meem/superhero-toy-store-client",
-      "server":"https://github.com/haa-meem/superhero-toy-store-server",
-      "live":"https://superhero-toy-store-9ad2e.web.app/"
-    },
-    {
-      "id": 3,
-      "image": "lingua_camp.png",
-      "client":"https://github.com/haa-meem/lingua-camp-client",
-      "server":"https://github.com/haa-meem/lingua-camp-server",
-      "live":"https://lingua-camp.web.app/"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "chef_hut.png",
+    "features": [
+      "Recipe database: The website contains a large collection of Chinese recipes from various chefs. Users can search for recipes by cuisine, ingredient, or chef.",
+      "Chef profiles: Each chef has a profile page that includes their bio, photo, and a list of their recipes. Users can follow their favorite chefs to stay updated on their latest creations.",
+      "Recipe ratings and reviews: Users can rate and review recipes to share their feedback with other users. This helps to promote the best recipes and encourages chefs to improve their cooking.",
+      "Recipe sharing: Chefs can easily upload their own recipes to the website, including photos and step-by-step instructions. This helps to grow the recipe database and allows chefs to showcase their skills.",
+      "Mobile-friendly: The website is optimized for mobile devices, so users can easily access it from their smartphones or tablets."
+    ],
+    "technologies": [
+      "Front-end: React, Bootstrap",
+      "Back-end: Firebase"
+    ],
+    "client": "https://github.com/haa-meem/chef-hut-client",
+    "server": "https://github.com/haa-meem/chef-hut-server",
+    "live": "https://chef-recipe-hunter-78e93.web.app/"
+  },
+  {
+    "id": 2,
+    "image": "superhero_toy_store.png",
+    "features": [
+      "Extensive toy collection: The website showcases a diverse range of superhero toys, including action figures, vehicles, playsets, and role-play costumes.",
+      "User-friendly navigation: The website provides intuitive navigation to help users easily browse through different toy categories and sub-categories.",
+      "Detailed toy information: Each toy listing includes comprehensive details such as product images, price, ratings, available quantity, and a detailed description.",
+      "User reviews and ratings: Customers can leave reviews and ratings for toys they have purchased, sharing their experiences and recommendations with other users.",
+      "Responsive design: The website is designed to be mobile-friendly, ensuring that users can access and navigate it easily from various devices, including smartphones and tablets."
+    ],
+    "technologies": [
+      "Front-end: React, Tailwind CSS, DaisyUI",
+      "Back-end: Node.js, Express.js",
+      "Database: MongoDB"
+    ],
+    "client": "https://github.com/haa-meem/superhero-toy-store-client",
+    "server": "https://github.com/haa-meem/superhero-toy-store-server",
+    "live": "https://superhero-toy-store-9ad2e.web.app/"
+  },
+  {
+    "id": 3,
+    "image": "lingua_camp.png",
+    "features": [
+      "Language immersion programs: Lingua Camp offers a variety of language immersion programs, where children can learn and practice different languages in a fun and interactive environment.",
+      "Experienced language instructors: The camp boasts a team of experienced and qualified language instructors who create dynamic and effective language learning lessons.",
+      "Language proficiency assessment: The camp conducts language proficiency assessments at the beginning and end of the program to track each child's progress.",
+      "Interactive language learning resources: The website offers a collection of interactive language learning resources.",
+      "Responsive design: The website is designed to be responsive, ensuring seamless browsing and navigation across various devices, including desktops, tablets, and mobile phones."
+    ],
+    "technologies": [
+      "Front-end: React, Tailwind CSS, DaisyUI",
+      "Back-end: Node.js, Express.js",
+      "Database: MongoDB"
+    ],
+    "client": "https://github.com/haa-meem/lingua-camp-client",
+    "server": "https://github.com/haa-meem/lingua-camp-server",
+    "live": "https://lingua-camp.web.app/"
+  }
+]
