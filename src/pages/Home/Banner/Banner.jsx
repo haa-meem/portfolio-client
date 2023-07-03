@@ -6,7 +6,7 @@ const Banner = () => {
         <div id='banner'>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src="/src/assets/Haa-meem.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src="Haa-meem.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="font-semibold text-5xl">
                             I'm a {' '}

@@ -4,9 +4,9 @@ const Navbar = () => {
 
     const navLists = <>
         <li><Link to="banner" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
+        <li><Link to="about" spy={true} smooth={true} offset={-70} duration={500}>About Me</Link></li>
         <li><Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></li>
         <li><Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact Me</Link></li>
-        <li><Link to="about" spy={true} smooth={true} offset={-70} duration={500}>About Me</Link></li>
     </>
 
     return (
